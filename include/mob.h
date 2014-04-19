@@ -1,8 +1,6 @@
 #ifndef MOB_H
 #define MOB_H
 
-#include <personnages.h>
-
 
 class mob : public personnages
 {

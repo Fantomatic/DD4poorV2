@@ -1,13 +1,14 @@
 #ifndef PERSONNAGES_H
 #define PERSONNAGES_H
-
+#include <string>
+using namespace std;
 
 class personnages
 {
     public:
         /** Default constructor */
-        personnages(personnages::personnages(unsigned int life, unsigned int strength, string name, string description));
-        personnages(personnages::personnages(unsigned int life, unsigned int strength, string name, string descriptionn, int level));
+        personnages(unsigned int life, unsigned int strength, string name, string description);
+        personnages(unsigned int life, unsigned int strength, string name, string descriptionn, int level);
         /** Default destructor */
         ~personnages();
         /** Copy constructor

@@ -1,9 +1,15 @@
+#include "personnages.h"
 #include "heroes.h"
-#include "variable.h"
+#include "weapon.h"
+#include <string>
 
-heroes::heroes() : personnages(unsigned int life, unsigned int strength, string name, string description)
+using namespace std;
+
+heroes::heroes(unsigned int life, unsigned int strength, string name, string description) :
+    personnages(unsigned int life, unsigned int strength, string name, string description)
+
 {
-    heroes.weapon = weapons(1);
+    heroes.weapons = weapon(1);
 }
 
 heroes::~heroes()
@@ -11,11 +17,11 @@ heroes::~heroes()
     //dtor
 }
 
-virtual void heroes::attack(personnages cible, heroes.weapon)
+void heroes::attack(personnages cible, weapon heroes.weapons)
 {
-    cible.takeDamage(personnages.getStrength + weapon.baseDamage);
+    cible.takeDamage(personnages.getStrength + weapons.baseDamage);
 }
 
-void changeWeapons(newid) {
+void changeWeapons(int newid) {
     personnages.weapon(newid);
 }

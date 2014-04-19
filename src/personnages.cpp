@@ -1,5 +1,7 @@
 #include "personnages.h"
-#include "variable.h"
+#include <string>
+
+using namespace std;
 
 personnages::personnages(unsigned int life, unsigned int strength, string name, string description)
 {

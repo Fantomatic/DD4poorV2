@@ -6,7 +6,7 @@ class weapon
 {
     public:
         /** Default constructor */
-        weapon(int id );
+        weapon(int id);
         /** Default destructor */
         ~weapon();
 

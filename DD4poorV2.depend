@@ -339,3 +339,77 @@
 	<string>
 	<vector>
 
+1397745694 source:d:\dropbox\dd4poorv2final\main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+
+1397921584 source:d:\dropbox\dd4poorv2final\game.cpp
+	<SFML/Audio.hpp>
+
+1368000880 c:\program files (x86)\codeblocks\sfml-2.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1368000880 c:\program files (x86)\codeblocks\sfml-2.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1368000880 c:\program files (x86)\codeblocks\sfml-2.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1368000880 c:\program files (x86)\codeblocks\sfml-2.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1368000880 c:\program files (x86)\codeblocks\sfml-2.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1368000880 c:\program files (x86)\codeblocks\sfml-2.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1368000880 c:\program files (x86)\codeblocks\sfml-2.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1368000880 c:\program files (x86)\codeblocks\sfml-2.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1368000880 c:\program files (x86)\codeblocks\sfml-2.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1368000880 c:\program files (x86)\codeblocks\sfml-2.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Thread.hpp>
+	<vector>
+
+1397923790 source:d:\dropbox\dd4poorv2final\src\gobelin.cpp
+	"gobelin.h"
+
+1397923669 d:\dropbox\dd4poorv2final\include\gobelin.h
+

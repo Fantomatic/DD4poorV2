@@ -1,8 +1,6 @@
 #ifndef HEROES_H
 #define HEROES_H
-#include <personnages.h>
-
-
+#include "weapon.h"
 class heroes : public personnages
 {
     public:
@@ -12,13 +10,12 @@ class heroes : public personnages
         ~heroes();
 
         /**Getter et setter du héros*/
-        weapon Getweapon() { return weapon; }
-        void Setweapon(weapon val) { weapon = val; }
-        string Getarchetype() { return archetype; }
-        void Setarchetype(string val) { archetype = val; }
-        void changeWeapons(id);
+        weapon Getweapon() { return weapons; }
+        void Setweapon(weapon val) { weapons = val; }
+        void changeWeapons(int newid);
+        virtual void attack (personnages cible, weapon heroes.weapons);
     protected:
-        weapon weapon;
+        weapon weapons;
 };
 
 #endif // HEROES_H

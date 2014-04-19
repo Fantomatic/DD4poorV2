@@ -1,5 +1,7 @@
 #include "weapon.h"
-#include "variable.h"
+#include <string>
+
+using namespace std;
 
 weapon::weapon(int id )
 {
