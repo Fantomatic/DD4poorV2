@@ -13,7 +13,7 @@ class heroes : public personnages
         weapon Getweapon() { return weapons; }
         void Setweapon(weapon val) { weapons = val; }
         void changeWeapons(int newid);
-        virtual void attack (personnages cible, weapon heroes.weapons);
+        virtual void attack (personnages cible, weapon ws);
     protected:
         weapon weapons;
 };

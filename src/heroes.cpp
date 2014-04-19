@@ -6,10 +6,9 @@
 using namespace std;
 
 heroes::heroes(unsigned int life, unsigned int strength, string name, string description) :
-    personnages(unsigned int life, unsigned int strength, string name, string description)
+        personnages(life, strength, name, description), weapons(1)
 
 {
-    heroes.weapons = weapon(1);
 }
 
 heroes::~heroes()
@@ -17,11 +16,11 @@ heroes::~heroes()
     //dtor
 }
 
-void heroes::attack(personnages cible, weapon heroes.weapons)
+void heroes::attack(personnages cible, weapon ws)
 {
-    cible.takeDamage(personnages.getStrength + weapons.baseDamage);
+    cible.takeDamage(Getstrength() + ws.GetbaseDamage());
 }
 
-void changeWeapons(int newid) {
-    personnages.weapon(newid);
+void heroes::changeWeapons(int newid){
+        weapons = weapon(newid);
 }
