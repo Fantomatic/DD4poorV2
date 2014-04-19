@@ -5,20 +5,20 @@ using namespace std;
 
 personnages::personnages(unsigned int life, unsigned int strength, string name, string description)
 {
-    personnages.life = life;
-    personnages.strength = strength;
-    personnages.name = name;
-    personnages.description = description;
-    personnages.level = 1;
+    life = life;
+    strength = strength;
+    name = name;
+    description = description;
+    level = 1;
 }
 
 personnages::personnages(unsigned int life, unsigned int strength, string name, string description, int level)
 {
-    personnages.life = life * level;
-    personnages.strength = strength * level;
-    personnages.name = name;
-    personnages.description = description;
-    personnages.level = level;
+    life = life * level;
+    strength = strength * level;
+    name = name;
+    description = description;
+    level = level;
 }
 
 personnages::~personnages()
@@ -26,25 +26,20 @@ personnages::~personnages()
     //dtor
 }
 
-personnages::personnages(const personnages& other)
+void personnages::attack(personnages cible)
 {
-    //copy ctor
-}
-
-virtual void personnages::attack(personnages cible)
-{
-    cible.takeDamage(personnages.strength);
+    cible.takeDamage(Getstrength());
 }
 
 void personnages::takeDamage(int damage)
 {
-    personnages.life-=damage;
+    Setlife(Getlife()-damage);
     checkDeath();
 }
 
 void personnages::checkDeath()
 {
- if (personnages.life <= 0) {
-        personnages::~personnages()
- }
+    if (life <= 0) {
+//        ~personnages();
+    }
 }

@@ -11,10 +11,6 @@ class personnages
         personnages(unsigned int life, unsigned int strength, string name, string descriptionn, int level);
         /** Default destructor */
         ~personnages();
-        /** Copy constructor
-         *  \param other Object to copy from
-         */
-        personnages(const personnages& other);
 
         /** Getter et setter de personnages */
         unsigned int Getlife() { return life; }

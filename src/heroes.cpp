@@ -16,7 +16,7 @@ heroes::~heroes()
     //dtor
 }
 
-void heroes::attack(personnages cible, weapon ws)
+void heroes::attack(personnages& cible, weapon ws)
 {
     cible.takeDamage(Getstrength() + ws.GetbaseDamage());
 }

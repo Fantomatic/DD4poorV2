@@ -5,7 +5,7 @@
 using namespace std;
 
 mob::mob(unsigned int life, unsigned int strength, string name, string description, int level):
-    personnages(unsigned int life, unsigned int strength, string name, string description, int level)
+    personnages(life, strength, name, description, level)
 {
 
 }
@@ -13,9 +13,4 @@ mob::mob(unsigned int life, unsigned int strength, string name, string descripti
 mob::~mob()
 {
     //dtor
-}
-
-mob::mob(const mob& other)
-{
-    //copy ctor
 }

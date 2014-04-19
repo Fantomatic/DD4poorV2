@@ -413,3 +413,37 @@
 
 1397923669 d:\dropbox\dd4poorv2final\include\gobelin.h
 
+1397930721 source:d:\dropbox\dd4poorv2final\src\heroes.cpp
+	"personnages.h"
+	"heroes.h"
+	"weapon.h"
+	<string>
+
+1397931371 d:\dropbox\dd4poorv2final\include\personnages.h
+	<string>
+
+1397931259 d:\dropbox\dd4poorv2final\include\heroes.h
+	"weapon.h"
+	"personnages.h"
+
+1397932419 d:\dropbox\dd4poorv2final\include\weapon.h
+	<string>
+
+1397923778 source:d:\dropbox\dd4poorv2final\src\magicien.cpp
+	"heroes.h"
+	"magicien.h"
+	<string>
+
+1397923648 d:\dropbox\dd4poorv2final\include\magicien.h
+
+1397931431 source:d:\dropbox\dd4poorv2final\src\mob.cpp
+	"personnages.h"
+	"mob.h"
+	<string>
+
+1397931425 d:\dropbox\dd4poorv2final\include\mob.h
+
+1397931696 source:d:\dropbox\dd4poorv2final\src\personnages.cpp
+	"personnages.h"
+	<string>
+

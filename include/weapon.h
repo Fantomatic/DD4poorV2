@@ -1,12 +1,13 @@
 #ifndef WEAPON_H
 #define WEAPON_H
-
+#include <string>
+using namespace std;
 
 class weapon
 {
     public:
         /** Default constructor */
-        weapon() = default;
+        weapon();
         weapon(int id);
         /** Default destructor */
         ~weapon();

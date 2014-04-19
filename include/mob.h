@@ -7,7 +7,6 @@ class mob : public personnages
     public:
         mob(unsigned int life, unsigned int strength, string name, string description, int level);
         ~mob();
-        mob(const mob& other);
     protected:
     private:
 };

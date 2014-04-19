@@ -1,6 +1,7 @@
 #ifndef HEROES_H
 #define HEROES_H
 #include "weapon.h"
+#include "personnages.h"
 class heroes : public personnages
 {
     public:
@@ -13,7 +14,7 @@ class heroes : public personnages
         weapon Getweapon() { return weapons; }
         void Setweapon(weapon val) { weapons = val; }
         void changeWeapons(int newid);
-        virtual void attack (personnages cible, weapon ws);
+        virtual void attack (personnages& cible, weapon ws);
     protected:
         weapon weapons;
 };
